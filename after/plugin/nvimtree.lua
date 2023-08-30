@@ -6,6 +6,7 @@ require("nvim-tree").setup({
     },
 })
 
-vim.keymap.set('n', '-', ':NvimTreeFindFileToggle<CR>', {
-    noremap = true
+vim.keymap.set('n', '-', ':NvimTreeToggle<CR>', {
+    noremap = true,
+    silent = true
 })

@@ -78,6 +78,14 @@ return require('packer').startup(function(use)
   -- lightline
   use {'itchyny/lightline.vim'}
 
+  -- which-key
+  use {'folke/which-key.nvim',
+    config = function()
+        vim.o.timeout = true
+        vim.o.timeoutlen = 50 
+	end
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
