@@ -66,7 +66,10 @@ return require('packer').startup(function(use)
 		  {'L3MON4D3/LuaSnip'},     -- Required
 	  }
   }
-
+  --Jupynium
+  use {'kiyoon/jupynium.nvim', run = 'pip3 install --user .'}
+  use {'rcarriga/nvim-notify'}
+  use {'stevearc/dressing.nvim'}
   -- nvim-tree
   use {
 		  'nvim-tree/nvim-tree.lua',
