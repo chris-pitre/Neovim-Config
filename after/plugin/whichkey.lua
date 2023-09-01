@@ -31,6 +31,7 @@ local mappings = {
         u = {"<cmd>PackerUpdate<cr>", "[u]pdate"},
     },
 
+    -- Git
     g = {
         name = "[g]it commands",
         w = {"<cmd>Gwrite<cr>", "[w]rite"},
@@ -39,6 +40,31 @@ local mappings = {
         p = {"<cmd>Git push<cr>", "[p]ush"},
     },
 
+    -- Buffer tabs
+    [","] = {"<cmd>BufferPrevious<cr>", "Previous Buffer"},
+    ["."] = {"<cmd>BufferNext<cr>", "Next Buffer"},
+
+    ["<"] = {"<cmd>BufferMovePrevious<cr>", "Move Buffer Left"},
+    [">"] = {"<cmd>BufferMoveNext<cr>", "Move Buffer Right"},
+
+    b = {
+        name = "[b]uffer",
+        ["1"] = {"<cmd>BufferGoto 1<cr>", "Go to Buffer [1]"},
+        ["2"] = {"<cmd>BufferGoto 2<cr>", "Go to Buffer [2]"},
+        ["3"] = {"<cmd>BufferGoto 3<cr>", "Go to Buffer [3]"},
+        ["4"] = {"<cmd>BufferGoto 4<cr>", "Go to Buffer [4]"},
+        ["5"] = {"<cmd>BufferGoto 5<cr>", "Go to Buffer [5]"},
+        ["6"] = {"<cmd>BufferGoto 6<cr>", "Go to Buffer [6]"},
+        ["7"] = {"<cmd>BufferGoto 7<cr>", "Go to Buffer [7]"},
+        ["8"] = {"<cmd>BufferGoto 8<cr>", "Go to Buffer [8]"},
+        ["9"] = {"<cmd>BufferGoto 9<cr>", "Go to Buffer [9]"},
+        ["0"] = {"<cmd>BufferLast<cr>", "Go to last Buffer"},
+        p = {"<cmd>BufferPin<cr>", "[p]in Buffer"},
+        c = {"<cmd>BufferClose<cr>", "[c]lose Buffer"},
+    },
+
+    -- Tree
+    e = {"<cmd>NvimTreeToggle<cr>", "Toggle tre[e]"},
 }
 
 local opts = {prefix = '<leader>'}
