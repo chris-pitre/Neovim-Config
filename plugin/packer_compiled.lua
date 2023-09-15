@@ -81,7 +81,7 @@ _G.packer_plugins = {
   },
   ["barbar.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\Chris\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\barbar.nvim",
+    path = "/home/egg/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
   ["cmp-nvim-lsp"] = {
@@ -89,22 +89,20 @@ _G.packer_plugins = {
     path = "/home/egg/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-<<<<<<< HEAD
-  ["gitsigns.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Chris\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
-    url = "https://github.com/lewis6991/gitsigns.nvim"
-=======
   ["dressing.nvim"] = {
     loaded = true,
     path = "/home/egg/.local/share/nvim/site/pack/packer/start/dressing.nvim",
     url = "https://github.com/stevearc/dressing.nvim"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/egg/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["jupynium.nvim"] = {
     loaded = true,
     path = "/home/egg/.local/share/nvim/site/pack/packer/start/jupynium.nvim",
     url = "https://github.com/kiyoon/jupynium.nvim"
->>>>>>> dd3db46c91f1542e86d32f090c567221c18fd7b7
   },
   ["lightline.vim"] = {
     loaded = true,

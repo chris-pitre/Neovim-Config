@@ -8,6 +8,7 @@ local mappings = {
     q = {"<cmd>wq<cr>", "[q]uit and write"},
     Q = {"<cmd>q<cr>", "[Q]uit"},
     w = {"<cmd>w<cr>", "[w]rite"},
+    t = {":terminal", "[t]erminal prompt"},
 
     --Undotree
     u = {"<cmd>lua require('undotree').toggle()<cr>", "[u]ndotree"},
