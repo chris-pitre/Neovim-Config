@@ -1,9 +1,9 @@
-local cmp = prequire("cmp")
+local cmp = require("cmp")
 if not cmp then
     return
 end
 
-local luasnip = prequire("luasnip")
+local luasnip = require("luasnip")
 if not luasnip then return end
 local lsp_symbols = {
     Text = "   (Text) ",
@@ -41,7 +41,7 @@ cmp.setup({
         { name = "neorg" },
     },
     mapping = {
-        ["<cr>"] = cmp.mapping.confirm({select = true}),
+        ["<CR>"] = cmp.mapping.confirm({select = true}),
         ["<s-tab>"] = cmp.mapping.select_prev_item(),
         ["<tab>"] = cmp.mapping.select_next_item(),
     },
@@ -64,4 +64,3 @@ cmp.setup({
         end,
     },
 })
-
