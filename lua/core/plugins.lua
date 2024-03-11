@@ -25,7 +25,12 @@ return require('packer').startup(function(use)
   }
 
   -- Colorscheme
-  use {'tanvirtin/monokai.nvim'}
+  use {
+      'loctvl842/monokai-pro.nvim',
+      config = function()
+          require("monokai-pro").setup()
+      end
+  }
 
   -- Treesitter
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
